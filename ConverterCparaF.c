@@ -20,7 +20,7 @@ int main() {
 	
 	int conv;
 	
-	while (conv != 1 || conv != 2) {
+	while (conv != 1 && conv != 2) {
 		printf("\nVoce deseja converter a temperatura de Celsius para:\nFahrenheit(1)\tKelvin(2)\nR: ");
 		scanf("%d", &conv);
 		switch (conv) {
